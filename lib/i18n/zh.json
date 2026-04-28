@@ -1,0 +1,27 @@
+{
+  "appName": "厂商出口管制参考",
+  "appTagline": "从官方门户抓取的 ECCN / HTS 产品分类",
+  "common": {
+    "language": "语言"
+  },
+  "exports": {
+    "title": "厂商出口管制分类参考",
+    "sub": "来自各大芯片厂商官方公开的 ECCN / HTS 产品分类对照。每个 Tab 直接抓自厂商官方来源,并提供可下载的 Excel。",
+    "downloadXlsx": "下载 Excel",
+    "refreshNow": "立即刷新",
+    "refreshing": "刷新中…",
+    "refreshCooldown": "请等待 {seconds} 秒",
+    "refreshTip": "直接从厂商官方来源重新抓取",
+    "refreshError": "刷新失败:{error}",
+    "sourceLabel": "来源",
+    "snapshotAt": "快照时间",
+    "nvidiaApiNote": "来自 nvidia.com ECCN API(api-prod.nvidia.com/services/eccn/v1/getECCN)",
+    "amdPdfNote": "解析自 AMD product-master.pdf(分类截至 {date})",
+    "eccnDistTitle": "Top ECCN 分类分布",
+    "htsDistTitle": "Top HTS 分类分布"
+  },
+  "disclaimer": {
+    "short": "仅快照——交易决策前请到官方源核对。",
+    "full": "数据从各芯片厂商的公开 ECCN 门户原样镜像。Refresh 按钮可实时重新抓取,但分类可随时变化恕不另行通知。本站仅供参考,不能替代法律或合规建议;具有约束力的判定请查阅厂商官网及 BIS 指引。"
+  }
+}

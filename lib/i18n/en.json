@@ -1,0 +1,27 @@
+{
+  "appName": "Vendor Export Reference",
+  "appTagline": "ECCN / HTS classifications scraped from official chipmaker portals",
+  "common": {
+    "language": "Language"
+  },
+  "exports": {
+    "title": "Vendor Export Classification Reference",
+    "sub": "Side-by-side catalogs of publicly-published ECCN / HTS product classifications from major chipmakers. Every tab pulls directly from the vendor's official source and offers a downloadable Excel workbook.",
+    "downloadXlsx": "Download Excel",
+    "refreshNow": "Refresh now",
+    "refreshing": "Refreshing…",
+    "refreshCooldown": "Wait {seconds}s",
+    "refreshTip": "Re-fetch directly from the vendor's official source",
+    "refreshError": "Refresh failed: {error}",
+    "sourceLabel": "Source",
+    "snapshotAt": "Snapshot",
+    "nvidiaApiNote": "via nvidia.com ECCN API (api-prod.nvidia.com/services/eccn/v1/getECCN)",
+    "amdPdfNote": "Parsed from AMD product-master.pdf (classification as of {date})",
+    "eccnDistTitle": "Top ECCN codes",
+    "htsDistTitle": "Top HTS codes"
+  },
+  "disclaimer": {
+    "short": "Snapshots only — verify with the official source before trade decisions.",
+    "full": "Data is mirrored verbatim from each chipmaker's public ECCN portal. Refresh button re-fetches in real time but classifications can change without notice. This site is informational only and is not a substitute for legal or compliance counsel; consult the vendor's website and BIS guidance for binding determinations."
+  }
+}
