@@ -53,9 +53,9 @@ async function getOrFetch(vendor: string, allowCache: boolean): Promise<CacheEnt
 
 export async function GET(
   req: NextRequest,
-  { params }: { params: { vendor: string } },
+  { params }: { params: Promise<{ vendor: string }> },
 ) {
-  const vendor = params.vendor;
+  const vendor = (await params).vendor;
   if (!FETCHERS[vendor]) {
     return NextResponse.json({ error: "unknown vendor" }, { status: 404 });
   }
